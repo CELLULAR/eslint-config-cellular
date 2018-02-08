@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-cellular",
+  "version": "1.0.0",
+  "description": "CELLULAR ESLint config",
+  "author": "Felix Gnass <fgnass@cellular.de>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "dependencies": {
+    "babel-eslint": "^8.1.2",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-filenames": "^1.2.0",
+    "eslint-plugin-flowtype": "^2.40.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.5.0",
+    "eslint-plugin-react": "^7.5.1",
+    "prettier": "^1.10.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0"
+  }
+}
