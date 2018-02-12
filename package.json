@@ -9,6 +9,7 @@
     "test": "eslint ."
   },
   "dependencies": {
+    "about-this-app": "^1.0.2",
     "babel-eslint": "^8.1.2",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-filenames": "^1.2.0",

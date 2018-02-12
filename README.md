@@ -42,7 +42,7 @@ Disabled Rules:
 
 ## Prettier
 
-By default the following prettier settings are used:
+If the project does not contain any prettier configuration, the following settings are used:
 
 ```js
 {
@@ -50,18 +50,6 @@ By default the following prettier settings are used:
   trailingComma: 'es5'
 }
 ```
-
-If you want to read your config from a `.prettierrc` file instead, add the following rule:
-
-```js
-{
-  "extends": "cellular",
-  "rules": {
-    'prettier/prettier': ['error', null]
-  }
-}
-```
-
 
 # License
 
