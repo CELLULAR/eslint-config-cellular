@@ -1,3 +1,5 @@
+const production = process.env.NODE_ENV == 'production';
+
 module.exports = {
   env: {
     browser: true,
@@ -17,7 +19,7 @@ module.exports = {
   plugins: ['filenames'],
   rules: {
     'no-console': 0,
-    'no-debugger': 0,
+    'no-debugger': production ? 2 : 0,
     'filenames/match-exported': 2,
     // "import/order": ["error", {"newlines-between": "always"}]
   },
