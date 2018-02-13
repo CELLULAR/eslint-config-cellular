@@ -26,11 +26,11 @@ Then add the extends to your `.eslintrc`:
 
 This config uses `eslint:recommended` and the default rules of the following plugins:
 
-* [react](https://www.npmjs.com/package/eslint-plugin-react)
-* [flowtype](https://www.npmjs.com/package/eslint-plugin-flowtype)
 * [import](https://www.npmjs.com/package/eslint-plugin-import)
 * [filenames](https://www.npmjs.com/package/eslint-plugin-filenames)
 * [prettier](https://www.npmjs.com/package/eslint-plugin-prettier)
+* [react](https://www.npmjs.com/package/eslint-plugin-react) (if react or preact is a dependency)
+* [flowtype](https://www.npmjs.com/package/eslint-plugin-flowtype) (if flow-bin is a devDependency)
 
 
 Disabled Rules:
@@ -39,6 +39,7 @@ Disabled Rules:
 * [no-console](https://eslint.org/docs/rules/no-console) use it responsibly!
 * [react/no-unescaped-entities](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities.md) makes things more readable
 * [react/jsx-no-target-blank](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-target-blank.md) we (usually) only link to trusted sites
+* [react/prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md) (if the project uses flowtype)
 
 ## Prettier
 
