@@ -18,8 +18,8 @@ module.exports = {
   ],
   plugins: ['filenames'],
   rules: {
-    'no-console': 0,
-    'no-debugger': production ? 2 : 0,
+    'no-console': [production ? 2 : 1, { allow: ['error', 'warn', 'info'] }],
+    'no-debugger': production ? 2 : 1,
     'filenames/match-exported': 2,
     // "import/order": ["error", {"newlines-between": "always"}]
   },
