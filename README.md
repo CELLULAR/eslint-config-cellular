@@ -1,7 +1,7 @@
 # eslint-config-cellular
 
-[![Build Status](https://travis-ci.org/fgnass/eslint-config-cellular.svg?branch=master)](https://travis-ci.org/fgnass/eslint-config-cellular)
-[![Greenkeeper badge](https://badges.greenkeeper.io/fgnass/eslint-config-cellular.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/cellular/eslint-config-cellular.svg?branch=master)](https://travis-ci.org/cellular/eslint-config-cellular)
+[![Greenkeeper badge](https://badges.greenkeeper.io/cellular/eslint-config-cellular.svg)](https://greenkeeper.io/)
 [![version](https://img.shields.io/npm/v/eslint-config-cellular.svg)](http://npm.im/eslint-config-cellular)
 
 
