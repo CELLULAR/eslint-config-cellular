@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "about-this-app": "^1.1.0",
-    "babel-eslint": "^8.1.2",
+    "babel-eslint": "^10.0.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-filenames": "^1.2.0",
     "eslint-plugin-flowtype": "^2.44.0",
