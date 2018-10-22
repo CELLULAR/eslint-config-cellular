@@ -11,15 +11,15 @@
   "dependencies": {
     "about-this-app": "^1.1.0",
     "babel-eslint": "^9.0.0",
-    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-prettier": "^3.0.0",
     "eslint-plugin-filenames": "^1.2.0",
-    "eslint-plugin-flowtype": "^2.44.0",
+    "eslint-plugin-flowtype": "^3.0.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-prettier": "^2.5.0",
     "eslint-plugin-react": "^7.5.1",
     "prettier": "^1.10.2"
   },
   "devDependencies": {
-    "eslint": "^4.17.0"
+    "eslint": "^5.0.0"
   }
 }
