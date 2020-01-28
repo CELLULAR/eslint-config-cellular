@@ -11,7 +11,7 @@
   "dependencies": {
     "about-this-app": "^1.1.0",
     "babel-eslint": "^9.0.0",
-    "eslint-config-prettier": "^3.0.0",
+    "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-filenames": "^1.2.0",
     "eslint-plugin-flowtype": "^3.0.0",
     "eslint-plugin-import": "^2.8.0",
