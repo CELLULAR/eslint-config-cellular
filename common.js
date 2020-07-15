@@ -32,7 +32,7 @@ module.exports = {
       },
     ],
     'import/prefer-default-export': 0,
-    'simple-import-sort/sort': 'error',
+    'simple-import-sort/sort': 'warn',
     '@typescript-eslint/semi': 0,
   },
 };
