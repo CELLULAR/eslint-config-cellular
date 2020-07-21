@@ -34,5 +34,6 @@ module.exports = {
     'import/prefer-default-export': 0,
     'simple-import-sort/sort': 'warn',
     '@typescript-eslint/semi': 0,
+    '@typescript-eslint/no-unused-vars': production ? 2 : 1,
   },
 };
