@@ -11,16 +11,4 @@ module.exports = {
       jsx: true,
     },
   },
-  extends: ['plugin:import/errors', 'plugin:import/warnings'],
-  plugins: ['filenames', 'simple-import-sort'],
-  rules: {
-    'filenames/match-exported': 2,
-    'import/no-extraneous-dependencies': [
-      'error',
-      {
-        devDependencies: true,
-        optionalDependencies: false,
-      },
-    ],
-  },
 };
