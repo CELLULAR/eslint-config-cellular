@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cellular",
-  "version": "4.0.0-11",
+  "version": "4.0.0-12",
   "description": "CELLULAR ESLint config",
   "author": "Felix Gnass <fgnass@cellular.de>",
   "license": "MIT",
