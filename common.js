@@ -11,4 +11,8 @@ module.exports = {
       jsx: true,
     },
   },
+  plugins: ['filenames'],
+  rules: {
+    'filenames/match-exported': 2,
+  },
 };
