@@ -9,12 +9,5 @@ module.exports = {
     'no-underscore-dangle': 0,
     'import/prefer-default-export': 0,
     'simple-import-sort/sort': 'warn',
-    'import/no-extraneous-dependencies': [
-      'error',
-      {
-        devDependencies: true,
-        optionalDependencies: false,
-      },
-    ],
   },
 };

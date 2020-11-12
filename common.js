@@ -11,9 +11,5 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['filenames', 'simple-import-sort'],
-  rules: {
-    'simple-import-sort/sort': 'error',
-    'filenames/match-exported': 2,
-  },
+  extends: ['eslint:recommended'],
 };
